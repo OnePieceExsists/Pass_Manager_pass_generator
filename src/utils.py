@@ -14,7 +14,7 @@ def is_strong_password(password):
 
 def format_password(password):
     """Format the password for display."""
-    return password.strip()  # Remove any leading/trailing whitespace
+    return password.strip()
 
 def validate_password_strength(password):
     """Validate the strength of the password."""
