@@ -1,7 +1,7 @@
-class PasswordGenerator:
-    import random
-    import string
+import random
+import string
 
+class PasswordGenerator:
     def generate_password(self, length=12, use_uppercase=True, use_numbers=True, use_special_chars=True):
         characters = string.ascii_lowercase
         if use_uppercase:
